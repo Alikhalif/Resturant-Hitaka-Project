@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="page" class="site">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="left">
+                        <div class="logo"><a href="#">O'shef+</a></div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="index.html">Acceil</a></li>
+                                <li><a href="Carte.html">Cart</a></li>
+                                <li><a href="Apropos.html">Apropos</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="icons">
+                            <a href="#" class="s-trigger">
+                                <i class="ri-search-line"></i>
+                            </a>
+                            <a href="#" class="icart">
+                                <i class="ri-shopping-cart-line" id="cart-icon"></i>
+                                <span class="number">0</span>
+                            </a>
+                            <a href="#" class="m-trigger mobile-only">
+                                <i class="ri-menu-line"></i>
+                            </a>
+                            <a class="nav__close" id="nav-close">
+                                <i class="ri-close-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <form action="" class="search">
+                <div class="container">
+                    <input type="search" placeholder="Seart to eat...">
+                </div>
+            </form>
+        </header>
+
+        <!--Contact-->
+        <section>
+            <div class="contact-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact">
+                <div class="contact-container">
+                    <!-- <h3>Message Us</h3> -->
+                    <form action="" class="form-contact">
+                        <input type="text" placeholder="Your name">
+                        <input type="text" placeholder="Your email">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Write message"></textarea>
+                        <input class="contact-btn" type="submit" value="Send">
+                    </form>
+                </div>
+    
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.7000595816635!2d-9.232897715138119!3d32.29304118112067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYoucode%20Safi!5e0!3m2!1sar!2sma!4v1665680321056!5m2!1sar!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- cart -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+
+                <!-- <div class="cart-box"> -->
+                    <!-- <img src="img/categories/cat1.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Earbuds</div>
+                        <div class="cart-price">25$</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                     remove cart 
+                    <i class="ri-delete-bin-6-fill cart-remove"></i> -->
+                <!-- </div> -->
+            </div>
+
+            <!-- Total -->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">0$</div>
+            </div>
+            <!-- Buy Button -->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!-- Cart Close . -->
+            <i class="ri-close-line" id="close-cart"></i>
+            
+            
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="widget-footer">
+                        <h4>Resto</h4>
+                        <ul>
+                            <li><a href="">A propos</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Carte</a></li>
+                            <li><a href="">Acceil</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget-footer">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="">A propos</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Carte</a></li>
+                            <li><a href="">Acceil</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget-footer">
+                        <div class="logo"><a href="">Oshef+</a></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, temporibus voluptatibus. Animi, quod. Eum praesentium ratione aliquid facere odit ullam facilis! Distinctio in maiores nisi, atque repellat non eius optio!</p>
+                        <ul class="sosial">
+                            <li><a href=""><i class="ri-facebook-line"></i></a></li>
+                            <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                            <li><a href=""><i class="ri-instagram-line"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copyright">Copyright ©2022 All rights reserved | Oshef+</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
