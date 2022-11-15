@@ -923,6 +923,19 @@ footer .copyright{
     }
 }
 
+
+/* contact screen */
+@media (max-width: 779px){
+    .contact{
+        margin:0 auto;
+        width: 90%;
+        margin-top: 5rem !important;
+    }
+    .map iframe{
+        height: 330px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .slider .thumb-nav{
         position: absolute;
