@@ -735,9 +735,12 @@ header .container::before{
 
 /* //////////////// Apropos  */
 .container-about{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin-top: 30px;
 }
 .about{
